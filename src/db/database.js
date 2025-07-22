@@ -7,7 +7,7 @@ const connectDB = async () =>{
         // console.log(connectInstant)
         console.log(`\n MongoDB connected !! DB_HOST : ${connectInstant.connection.host} `)
     } catch (error) {
-        console.log("an error has occured ", error)
+        console.log("database has failed to connected ", error)
         process.exit(1)
     }
 }

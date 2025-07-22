@@ -1,7 +1,7 @@
 {
   "name": "backend-project",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "this is my first full project in backend using js",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,16 @@
     "prettier": "^3.6.2"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "dotnet": "^1.1.4",
     "express": "^5.1.0",
-    "mongoose": "^8.16.3"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.0.2"
   }
 }
